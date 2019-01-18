@@ -7,7 +7,7 @@ const { OAuthHelpers, LOGIN_PROMPT } = require('./oauth-helpers');
 
 // The connection name here must match the the one from your
 // Bot Channels Registration on the settings blade in Azure.
-const CONNECTION_SETTING_NAME = '';
+const CONNECTION_SETTING_NAME = 'ms-graph';
 
 /**
  * This bot uses OAuth to log the user in. The OAuth provider being demonstrated
